@@ -1,0 +1,123 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 1px=1rem */
+}
+
+body {
+  background-color: hsl(257, 40%, 49%);
+  background-image: url("../images/bg-desktop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5rem;
+}
+
+.nav {
+  margin-bottom: 5rem;
+}
+
+.main {
+  width: 70rem;
+  height: 40rem;
+}
+
+.h1 {
+  font-size: 5rem;
+  color: white;
+  padding-bottom: 2rem;
+  padding-top: 3rem;
+}
+
+.h2 {
+  font-size: 2rem;
+  color: white;
+  opacity: 0.7;
+}
+
+/* .btn {
+  outline: 0;
+  border: 0;
+  width: 15rem;
+  height: 4rem;
+  background-color: hsl(300, 69%, 71%);
+  border-radius: 10rem;
+  color: white;
+  hover: 2rem;
+} */
+
+.btn {
+  background-color: white;
+  border: none;
+  color: rgb(128, 145, 150);
+  padding: 1rem 3rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.4rem;
+  border-radius: 10rem;
+  margin-top: 2rem;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: hsl(300, 69%, 71%);
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+.btn:link,
+.btn:visited {
+  background-color: white;
+  color: black;
+  opacity: 0.7;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1.6rem 3.2rem;
+}
+
+.post-header {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 8rem;
+}
+.fa {
+  border: 0.2rem solid rgb(210, 207, 207);
+  padding: 1rem 1.5rem;
+  color: white;
+  font-size: 5rem;
+  border-radius: 100%;
+  text-decoration: none;
+}
+
+.fa-twitter {
+  border: 0.2rem solid rgb(210, 207, 207);
+  padding: 1rem 1.5rem;
+  color: white;
+  font-size: 5rem;
+  border-radius: 100.5%;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+.fa-instagram {
+  border: 0.2rem solid rgb(210, 207, 207);
+  padding: 1rem 1.5rem;
+  color: white;
+  font-size: 5rem;
+  border-radius: 100.5%;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+.web {
+  display: flex;
+  justify-content: right;
+  padding-top: 5rem;
+}
